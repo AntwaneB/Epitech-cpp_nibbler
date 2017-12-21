@@ -1,0 +1,24 @@
+==== Implémentés ====
+
+- Fichier de configuration et de maps en XML
+- Corps et tête du serpent différents
+- La tête du serpent change selon la direction
+- Possibilité d'ajouter des murs au milieu de la map
+- Types et propriétés de blocs existants modulables
+- Utilisation de sprites en SDL
+- Utilisation de la musique + bruitages en SDL et OpenGL
+- Nourriture faisant accélerer le joueur
+- Nourriture inversant les contrôles du joueur
+- Nourriture faisant perdre un segment au lieu d'en faire gagner un
+- Possibilité de créer une nourriture ajoutant ou supprimant plus d'un segment à la fois
+- Affichage du score en cours de partie, certaines nourritures font gagner des points et d'autres en font perdre
+- Affichage OpenGL 2D et 3D en deux libs différentes
+- On a réussi à faire travailler Hugo (un peu au moins)
+
+
+
+=== A implémenter ===
+
+- UML
+- Highscores stockés dans un fichier
+- Touche "Espace" pour accélerer

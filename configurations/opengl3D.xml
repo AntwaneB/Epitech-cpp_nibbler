@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<config>
+
+  <tileset>
+   <param name="library">./lib_nibbler_opengl3D.so</param>
+   <param name="start_level">maps/default.xml</param>
+    <param name="filename">assets/spritessnake.png</param>
+    <param name="block_width">32</param>
+    <param name="block_height">32</param>
+  </tileset>
+
+  <available_entities>
+    <entity type="wall">
+      <param name="collision">1</param>
+      <param name="color">0x9E9E9E</param>
+      <param name="spriteX">0</param>
+      <param name="spriteY">0</param>
+      <param name="visible">1</param>
+    </entity>
+
+    <entity type="floor">
+      <param name="spriteX">7</param>
+      <param name="spriteY">0</param>
+      <param name="collision">0</param>
+      <param name="visible">1</param>
+    </entity>
+
+    <entity type="food_0">
+      <param name="spriteX">2</param>
+      <param name="spriteY">1</param>
+      <param name="color">0x03A9F4</param>
+      <param name="visible">1</param>
+      <param name="collision">1</param>
+      <param name="segmentAmount">1</param>
+    </entity>
+
+    <entity type="player">
+      <param name="spriteX">1</param>
+      <param name="spriteY">0</param>
+      <param name="color">0xF44336</param>
+      <param name="visible">1</param>
+      <param name="collision">1</param>
+      <param name="speed">70</param>
+      <param name="base_size">6</param>
+    </entity>
+
+    <entity type="player_head">
+      <param name="spriteX_left">6</param>
+      <param name="spriteY_left">0</param>
+      <param name="spriteX_right">5</param>
+      <param name="spriteY_right">0</param>
+      <param name="spriteX_up">4</param>
+      <param name="spriteY_up">0</param>
+      <param name="spriteX_down">3</param>
+      <param name="spriteY_down">0</param>
+      <param name="color">0x4CAF50</param>
+      <param name="visible">1</param>
+      <param name="collision">1</param>
+    </entity>
+  </available_entities>
+
+</config>

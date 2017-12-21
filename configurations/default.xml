@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<config>
+
+  <tileset>
+    <param name="filename">assets/spritessnake.png</param>
+    <param name="block_width">32</param>
+    <param name="block_height">32</param>
+	 <param name="food_count">4</param>
+  </tileset>
+
+  <available_entities>
+		<entity type="wall">
+			<param name="collision">1</param>
+			<param name="color">0xffffff</param>
+			<param name="spriteX">0</param>
+			<param name="spriteY">0</param>
+			<param name="visible">1</param>
+		</entity>
+
+		<entity type="floor">
+			<param name="spriteX">7</param>
+			<param name="spriteY">0</param>
+			<param name="collision">0</param>
+			<param name="visible">1</param>
+		</entity>
+
+		<entity type="food_0">
+			<param name="spriteX">2</param>
+			<param name="spriteY">1</param>
+			<param name="color">0x00ff00</param>
+			<param name="visible">1</param>
+			<param name="collision">1</param>
+			<param name="scoreAmount">150</param>
+			<param name="segmentAmount">1</param>
+		</entity>
+
+		<entity type="food_1">
+			<param name="spriteX">6</param>
+			<param name="spriteY">1</param>
+			<param name="color">0x0000ff</param>
+			<param name="visible">1</param>
+			<param name="collision">1</param>
+			<param name="scoreAmount">50</param>
+			<param name="segmentAmount">1</param>
+			<param name="speedModifier">1.8</param>
+		</entity>
+
+		<entity type="food_2">
+			<param name="spriteX">5</param>
+			<param name="spriteY">1</param>
+			<param name="color">0xffff00</param>
+			<param name="visible">1</param>
+			<param name="collision">1</param>
+			<param name="scoreAmount">50</param>
+			<param name="segmentAmount">1</param>
+			<param name="invertControls">1</param>
+		</entity>
+
+		<entity type="food_3">
+			<param name="spriteX">4</param>
+			<param name="spriteY">1</param>
+			<param name="color">0xff0000</param>
+			<param name="visible">1</param>
+			<param name="collision">1</param>
+			<param name="scoreAmount">-50</param>
+			<param name="segmentAmount">-1</param>
+		</entity>
+
+		<entity type="player">
+			<param name="spriteX">1</param>
+			<param name="spriteY">0</param>
+			<param name="color">0xff0000</param>
+			<param name="visible">1</param>
+			<param name="collision">1</param>
+			<param name="speed">70</param>
+			<param name="base_size">4</param>
+		</entity>
+
+		<entity type="player_head">
+			<param name="spriteX_left">6</param>
+			<param name="spriteY_left">0</param>
+			<param name="spriteX_right">5</param>
+			<param name="spriteY_right">0</param>
+			<param name="spriteX_up">4</param>
+			<param name="spriteY_up">0</param>
+			<param name="spriteX_down">3</param>
+			<param name="spriteY_down">0</param>
+			<param name="color">0x00ff00</param>
+			<param name="visible">1</param>
+			<param name="collision">1</param>
+		</entity>
+  </available_entities>
+
+</config>

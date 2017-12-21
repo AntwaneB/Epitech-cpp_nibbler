@@ -1,0 +1,7 @@
+nbproject/
+obj/
+nibbler
+lib_nibbler_*.so
+_Ressources/
+debug.log
+*~
